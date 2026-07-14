@@ -20,4 +20,4 @@ This repository contains a cross-platform 3D fan built in C++ using OpenGL ES 3.
   2. Navigate into the output folder: `cd web`
   3. Start a local server: `python -m http.server 8080`
 * **Output:** Open your browser to `http://localhost:8080` to view the fan running in WebGL. 
-*(Note: A CI/CD pipeline is also configured to automatically build and deploy this target to GitHub Pages on every push to `main`)*.
+*(Note: A CI/CD pipeline is also configured to automatically build and deploy this target to GitHub Pages on every push to `main`; however, live hosting is pending approval of the GitHub Student Developer Pack).*
