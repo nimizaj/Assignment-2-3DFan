@@ -1,0 +1,14 @@
+# Target labels
+ glm-populate
+# Source files and their labels
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/glm-populate
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/b9b46232fd38e644f4f2d405ef9ccaa2/glm-populate.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/d77fe153a984a6629922772b8a7eea07/glm-populate-complete.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/0d04187407cff5423509cbd0db972f47/glm-populate-build.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/0d04187407cff5423509cbd0db972f47/glm-populate-configure.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/0d04187407cff5423509cbd0db972f47/glm-populate-download.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/0d04187407cff5423509cbd0db972f47/glm-populate-install.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/0d04187407cff5423509cbd0db972f47/glm-populate-mkdir.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/0d04187407cff5423509cbd0db972f47/glm-populate-patch.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/0d04187407cff5423509cbd0db972f47/glm-populate-test.rule
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-subbuild/CMakeFiles/0d04187407cff5423509cbd0db972f47/glm-populate-update.rule

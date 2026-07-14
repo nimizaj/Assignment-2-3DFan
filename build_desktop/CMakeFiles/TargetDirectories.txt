@@ -11,3 +11,7 @@ C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-buil
 C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-build/CMakeFiles/libglew_static.dir
 C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-build/CMakeFiles/INSTALL.dir
 C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-build/CMakeFiles/INSTALL.dir
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-build/CMakeFiles/ALL_BUILD.dir
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-build/glm/CMakeFiles/glm.dir
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glm-build/glm/CMakeFiles/INSTALL.dir

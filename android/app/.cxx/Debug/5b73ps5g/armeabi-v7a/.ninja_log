@@ -1,0 +1,8 @@
+# ninja log v5
+4	612	8057592081636145	CMakeFiles/touchevents.dir/NativeTemplate.cpp.o	62e2aa3cfd4b9234
+0	13	0	clean	fe1f72828257bb55
+20	796	8057592083434864	CMakeFiles/touchevents.dir/C_/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/Scene/Triangle.cpp.o	e6a536f38e771979
+13	927	8057592084763186	CMakeFiles/touchevents.dir/C_/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/Scene/Renderer.cpp.o	913c6139a1448508
+10	1045	8057594682017452	CMakeFiles/touchevents.dir/C_/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/Scene/Fan.cpp.o	125f4b45a40be3e6
+4	811	8057596488732567	CMakeFiles/touchevents.dir/C_/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/Scene/Transform.cpp.o	802e7330c53e4945
+812	914	8057596489736250	C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/build/intermediates/cxx/Debug/5b73ps5g/obj/armeabi-v7a/libtouchevents.so	e0ed321ce63757d0

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\0d04187407cff5423509cbd0db972f47\glm-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\0d04187407cff5423509cbd0db972f47\glm-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\0d04187407cff5423509cbd0db972f47\glm-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\0d04187407cff5423509cbd0db972f47\glm-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\0d04187407cff5423509cbd0db972f47\glm-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\0d04187407cff5423509cbd0db972f47\glm-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\0d04187407cff5423509cbd0db972f47\glm-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\0d04187407cff5423509cbd0db972f47\glm-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\d77fe153a984a6629922772b8a7eea07\glm-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\b9b46232fd38e644f4f2d405ef9ccaa2\glm-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-subbuild\CMakeFiles\glm-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1ADBE7F6-79CB-35D8-9D8F-E7FCE7AE4FFC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

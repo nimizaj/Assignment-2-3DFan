@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\android\app\.cxx\Debug\5b73ps5g\x86_64'
+ninja: no work to do.

@@ -182,6 +182,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{99022EBA-692D-3816-A02E-A96729BC48F1}</Project>
       <Name>glfw</Name>
     </ProjectReference>
+    <ProjectReference Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-build\glm\glm.vcxproj">
+      <Project>{163D5762-0016-3FE8-A1D4-04B0B39C2983}</Project>
+      <Name>glm</Name>
+    </ProjectReference>
     <ProjectReference Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-build\libglew_static.vcxproj">
       <Project>{3C9B739F-A04A-3F35-91F0-0393CA080688}</Project>
       <Name>libglew_static</Name>

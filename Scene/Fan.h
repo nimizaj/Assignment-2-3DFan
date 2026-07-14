@@ -1,26 +1,33 @@
 #pragma once
+#include "Platform.h"
 #include "Model.h"
 #include "Transform.h"
 #include <chrono>
 
+#ifdef PLATFORM_ANDROID
+#include <android/asset_manager.h>
+#endif
+
 class Fan : public Model {
 public:
-    Fan();
+#ifdef PLATFORM_ANDROID
+    Fan(AAssetManager* mgr) : assetMgr(mgr), movedDistance(0.0f), lastX(0.0f), lastY(0.0f) { modelType = CubeType; }
+    AAssetManager* assetMgr;
+#else
+    Fan() : movedDistance(0.0f), lastX(0.0f), lastY(0.0f) { modelType = CubeType; }
+#endif
     virtual ~Fan();
 
-    // Model interface overrides
     virtual void InitModel() override;
     virtual void Render() override;
+    virtual void Resize(int w, int h) override; 
     
-    // Touch event interface overrides
     virtual void TouchEventDown(float x, float y) override;
     virtual void TouchEventMove(float x, float y) override;
     virtual void TouchEventRelease(float x, float y) override;
 
 private:
     Transform transform;
-    
-    // Core State (Provided by Assignment 2)
     float spinAngle = 0.0f;
     bool fanOn = true;
     float dragBoost = 0.0f;
@@ -30,12 +37,11 @@ private:
     static constexpr float kBoostScale = 8.0f;
     static constexpr float kTapThreshold = 12.0f;
     
-    // Touch tracking state
-    float lastX, lastY;
-    float movedDistance;
+    float lastX, lastY, movedDistance;
     std::chrono::steady_clock::time_point lastMoveTime;
 
-    // OpenGL Handles
     unsigned int vao, vbo, ibo;
     int mvpLocation, partColorLocation;
+    
+    GLuint programID; 
 };

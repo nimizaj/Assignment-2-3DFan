@@ -7,6 +7,7 @@
 # Dependencies:
 #   GLFW  3.3.8  – window creation and input
 #   GLEW  2.2.0  – OpenGL extension loader (static build)
+#   GLM   master – OpenGL Mathematics
 #
 # Mirrors the pattern from:
 #   AndroidIntegrationLecture+WebGL/8-CMake-GL-Andrd-FileSystem/cmake/ImportDependencies.cmake
@@ -49,6 +50,18 @@ function(importDependencies)
     set(glew-cmake_BUILD_SHARED OFF CACHE BOOL "" FORCE)
     set(glew-cmake_BUILD_STATIC ON  CACHE BOOL "" FORCE)
     FetchContent_MakeAvailable(glew)
+
+    # -----------------------------------------------------------------------
+    # GLM – OpenGL Mathematics 
+    # -----------------------------------------------------------------------
+    message(STATUS "[ImportDependencies] Fetching GLM ...")
+    FetchContent_Declare(
+        glm
+        GIT_REPOSITORY https://github.com/g-truc/glm.git
+        GIT_TAG        master
+        GIT_SHALLOW    TRUE
+    )
+    FetchContent_MakeAvailable(glm)
 
     message(STATUS "[ImportDependencies] All desktop dependencies ready.")
 

@@ -66,7 +66,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 7/15/2026 12:22:12 AM.
+      Build started 7/15/2026 2:11:58 AM.
       
       Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\4.4.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -95,7 +95,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.46
+      Time Elapsed 00:00:00.68
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -525,7 +525,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.40+3e7442088 for .NET Framework
-      Build started 7/15/2026 12:22:15 AM.
+      Build started 7/15/2026 2:11:59 AM.
       
       Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\4.4.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -554,7 +554,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.60
+      Time Elapsed 00:00:00.75
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -824,8 +824,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-gvf9nb"
-      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-gvf9nb"
+      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-chq1vr"
+      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-chq1vr"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -836,39 +836,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-gvf9nb'
+        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-chq1vr'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02c22.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_76235.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 7/15/2026 12:22:16 AM.
+        Build started 7/15/2026 2:12:00 AM.
         
-        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-gvf9nb\\cmTC_02c22.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-chq1vr\\cmTC_76235.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-gvf9nb\\Debug\\".
-          Creating directory "cmTC_02c22.dir\\Debug\\cmTC_02c22.tlog\\".
+          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-chq1vr\\Debug\\".
+          Creating directory "cmTC_76235.dir\\Debug\\cmTC_76235.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_02c22.dir\\Debug\\cmTC_02c22.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_02c22.dir\\Debug\\cmTC_02c22.tlog\\unsuccessfulbuild".
+          Creating "cmTC_76235.dir\\Debug\\cmTC_76235.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_76235.dir\\Debug\\cmTC_76235.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_02c22.dir\\Debug\\\\" /Fd"cmTC_02c22.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_76235.dir\\Debug\\\\" /Fd"cmTC_76235.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35228 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_02c22.dir\\Debug\\\\" /Fd"cmTC_02c22.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_76235.dir\\Debug\\\\" /Fd"cmTC_76235.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-gvf9nb\\Debug\\cmTC_02c22.exe" /INCREMENTAL /ILK:"cmTC_02c22.dir\\Debug\\cmTC_02c22.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-gvf9nb/Debug/cmTC_02c22.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-gvf9nb/Debug/cmTC_02c22.lib" /MACHINE:X64  /machine:x64 cmTC_02c22.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_02c22.vcxproj -> C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-gvf9nb\\Debug\\cmTC_02c22.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-chq1vr\\Debug\\cmTC_76235.exe" /INCREMENTAL /ILK:"cmTC_76235.dir\\Debug\\cmTC_76235.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-chq1vr/Debug/cmTC_76235.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-chq1vr/Debug/cmTC_76235.lib" /MACHINE:X64  /machine:x64 cmTC_76235.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_76235.vcxproj -> C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-chq1vr\\Debug\\cmTC_76235.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_02c22.dir\\Debug\\cmTC_02c22.tlog\\unsuccessfulbuild".
-          Touching "cmTC_02c22.dir\\Debug\\cmTC_02c22.tlog\\cmTC_02c22.lastbuildstate".
-        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-gvf9nb\\cmTC_02c22.vcxproj" (default targets).
+          Deleting file "cmTC_76235.dir\\Debug\\cmTC_76235.tlog\\unsuccessfulbuild".
+          Touching "cmTC_76235.dir\\Debug\\cmTC_76235.tlog\\cmTC_76235.lastbuildstate".
+        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-chq1vr\\cmTC_76235.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.47
+        Time Elapsed 00:00:00.74
         
       exitCode: 0
   -
@@ -881,7 +881,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-gvf9nb\\Debug\\cmTC_02c22.exe" /INCREMENTAL /ILK:"cmTC_02c22.dir\\Debug\\cmTC_02c22.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-gvf9nb/Debug/cmTC_02c22.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-gvf9nb/Debug/cmTC_02c22.lib" /MACHINE:X64  /machine:x64 cmTC_02c22.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-chq1vr\\Debug\\cmTC_76235.exe" /INCREMENTAL /ILK:"cmTC_76235.dir\\Debug\\cmTC_76235.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-chq1vr/Debug/cmTC_76235.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-chq1vr/Debug/cmTC_76235.lib" /MACHINE:X64  /machine:x64 cmTC_76235.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
@@ -909,8 +909,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-ihi18v"
-      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-ihi18v"
+      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-3lunwk"
+      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-3lunwk"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -922,39 +922,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-ihi18v'
+        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-3lunwk'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_31bec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_69033.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 7/15/2026 12:22:16 AM.
+        Build started 7/15/2026 2:12:01 AM.
         
-        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-ihi18v\\cmTC_31bec.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-3lunwk\\cmTC_69033.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-ihi18v\\Debug\\".
-          Creating directory "cmTC_31bec.dir\\Debug\\cmTC_31bec.tlog\\".
+          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-3lunwk\\Debug\\".
+          Creating directory "cmTC_69033.dir\\Debug\\cmTC_69033.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_31bec.dir\\Debug\\cmTC_31bec.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_31bec.dir\\Debug\\cmTC_31bec.tlog\\unsuccessfulbuild".
+          Creating "cmTC_69033.dir\\Debug\\cmTC_69033.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_69033.dir\\Debug\\cmTC_69033.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_31bec.dir\\Debug\\\\" /Fd"cmTC_31bec.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_69033.dir\\Debug\\\\" /Fd"cmTC_69033.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35228 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_31bec.dir\\Debug\\\\" /Fd"cmTC_31bec.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_69033.dir\\Debug\\\\" /Fd"cmTC_69033.dir\\Debug\\vc143.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-ihi18v\\Debug\\cmTC_31bec.exe" /INCREMENTAL /ILK:"cmTC_31bec.dir\\Debug\\cmTC_31bec.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-ihi18v/Debug/cmTC_31bec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-ihi18v/Debug/cmTC_31bec.lib" /MACHINE:X64  /machine:x64 cmTC_31bec.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_31bec.vcxproj -> C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-ihi18v\\Debug\\cmTC_31bec.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-3lunwk\\Debug\\cmTC_69033.exe" /INCREMENTAL /ILK:"cmTC_69033.dir\\Debug\\cmTC_69033.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-3lunwk/Debug/cmTC_69033.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-3lunwk/Debug/cmTC_69033.lib" /MACHINE:X64  /machine:x64 cmTC_69033.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_69033.vcxproj -> C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-3lunwk\\Debug\\cmTC_69033.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_31bec.dir\\Debug\\cmTC_31bec.tlog\\unsuccessfulbuild".
-          Touching "cmTC_31bec.dir\\Debug\\cmTC_31bec.tlog\\cmTC_31bec.lastbuildstate".
-        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-ihi18v\\cmTC_31bec.vcxproj" (default targets).
+          Deleting file "cmTC_69033.dir\\Debug\\cmTC_69033.tlog\\unsuccessfulbuild".
+          Touching "cmTC_69033.dir\\Debug\\cmTC_69033.tlog\\cmTC_69033.lastbuildstate".
+        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-3lunwk\\cmTC_69033.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.40
+        Time Elapsed 00:00:00.65
         
       exitCode: 0
   -
@@ -967,7 +967,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-ihi18v\\Debug\\cmTC_31bec.exe" /INCREMENTAL /ILK:"cmTC_31bec.dir\\Debug\\cmTC_31bec.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-ihi18v/Debug/cmTC_31bec.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-ihi18v/Debug/cmTC_31bec.lib" /MACHINE:X64  /machine:x64 cmTC_31bec.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-3lunwk\\Debug\\cmTC_69033.exe" /INCREMENTAL /ILK:"cmTC_69033.dir\\Debug\\cmTC_69033.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-3lunwk/Debug/cmTC_69033.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-3lunwk/Debug/cmTC_69033.lib" /MACHINE:X64  /machine:x64 cmTC_69033.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
@@ -995,7 +995,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2160:EVAL:2 (__FetchContent_doPopulation)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2160 (cmake_language)"
       - "C:/Program Files/CMake/share/cmake-4.4/Modules/FetchContent.cmake:2401 (__FetchContent_Populate)"
-      - "cmake/ImportDependencies.cmake:37 (FetchContent_MakeAvailable)"
+      - "cmake/ImportDependencies.cmake:38 (FetchContent_MakeAvailable)"
       - "CMakeLists.txt:28 (importDependencies)"
     mode: "program"
     variable: "GIT_EXECUTABLE"
@@ -1177,8 +1177,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-lhawpq"
-      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-lhawpq"
+      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-iz908y"
+      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-iz908y"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -1189,39 +1189,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-lhawpq'
+        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-iz908y'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_854f6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9eeef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 7/15/2026 12:22:23 AM.
+        Build started 7/15/2026 2:12:09 AM.
         
-        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\cmTC_854f6.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\cmTC_9eeef.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\Debug\\".
-          Creating directory "cmTC_854f6.dir\\Debug\\cmTC_854f6.tlog\\".
+          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\Debug\\".
+          Creating directory "cmTC_9eeef.dir\\Debug\\cmTC_9eeef.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_854f6.dir\\Debug\\cmTC_854f6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_854f6.dir\\Debug\\cmTC_854f6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9eeef.dir\\Debug\\cmTC_9eeef.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9eeef.dir\\Debug\\cmTC_9eeef.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_854f6.dir\\Debug\\\\" /Fd"cmTC_854f6.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9eeef.dir\\Debug\\\\" /Fd"cmTC_9eeef.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35228 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_854f6.dir\\Debug\\\\" /Fd"cmTC_854f6.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\src.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9eeef.dir\\Debug\\\\" /Fd"cmTC_9eeef.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\src.c"
           src.c
-        C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\cmTC_854f6.vcxproj]
-        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\cmTC_854f6.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\cmTC_9eeef.vcxproj]
+        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\cmTC_9eeef.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\cmTC_854f6.vcxproj" (default target) (1) ->
+        "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\cmTC_9eeef.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-lhawpq\\cmTC_854f6.vcxproj]
+          C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-iz908y\\cmTC_9eeef.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.41
+        Time Elapsed 00:00:00.39
         
       exitCode: 1
   -
@@ -1234,8 +1234,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-0mda85"
-      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-0mda85"
+      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-t4oetl"
+      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-t4oetl"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -1246,41 +1246,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-0mda85'
+        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-t4oetl'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ea65.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c7579.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 7/15/2026 12:22:23 AM.
+        Build started 7/15/2026 2:12:10 AM.
         
-        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\cmTC_3ea65.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\cmTC_c7579.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\Debug\\".
-          Creating directory "cmTC_3ea65.dir\\Debug\\cmTC_3ea65.tlog\\".
+          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\Debug\\".
+          Creating directory "cmTC_c7579.dir\\Debug\\cmTC_c7579.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_3ea65.dir\\Debug\\cmTC_3ea65.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_3ea65.dir\\Debug\\cmTC_3ea65.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c7579.dir\\Debug\\cmTC_c7579.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c7579.dir\\Debug\\cmTC_c7579.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3ea65.dir\\Debug\\\\" /Fd"cmTC_3ea65.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c7579.dir\\Debug\\\\" /Fd"cmTC_c7579.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35228 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_3ea65.dir\\Debug\\\\" /Fd"cmTC_3ea65.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_c7579.dir\\Debug\\\\" /Fd"cmTC_c7579.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\Debug\\cmTC_3ea65.exe" /INCREMENTAL /ILK:"cmTC_3ea65.dir\\Debug\\cmTC_3ea65.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-0mda85/Debug/cmTC_3ea65.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-0mda85/Debug/cmTC_3ea65.lib" /MACHINE:X64  /machine:x64 cmTC_3ea65.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\cmTC_3ea65.vcxproj]
-        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\cmTC_3ea65.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\Debug\\cmTC_c7579.exe" /INCREMENTAL /ILK:"cmTC_c7579.dir\\Debug\\cmTC_c7579.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-t4oetl/Debug/cmTC_c7579.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-t4oetl/Debug/cmTC_c7579.lib" /MACHINE:X64  /machine:x64 cmTC_c7579.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\cmTC_c7579.vcxproj]
+        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\cmTC_c7579.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\cmTC_3ea65.vcxproj" (default target) (1) ->
+        "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\cmTC_c7579.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-0mda85\\cmTC_3ea65.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-t4oetl\\cmTC_c7579.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.38
+        Time Elapsed 00:00:00.69
         
       exitCode: 1
   -
@@ -1293,8 +1293,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-8fx4sg"
-      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-8fx4sg"
+      source: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-u1jt73"
+      binary: "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-u1jt73"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -1305,41 +1305,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-8fx4sg'
+        Change Dir: 'C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-u1jt73'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2af68.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9b4da.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.40+3e7442088 for .NET Framework
-        Build started 7/15/2026 12:22:24 AM.
+        Build started 7/15/2026 2:12:11 AM.
         
-        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\cmTC_2af68.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\cmTC_9b4da.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\Debug\\".
-          Creating directory "cmTC_2af68.dir\\Debug\\cmTC_2af68.tlog\\".
+          Creating directory "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\Debug\\".
+          Creating directory "cmTC_9b4da.dir\\Debug\\cmTC_9b4da.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2af68.dir\\Debug\\cmTC_2af68.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2af68.dir\\Debug\\cmTC_2af68.tlog\\unsuccessfulbuild".
+          Creating "cmTC_9b4da.dir\\Debug\\cmTC_9b4da.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_9b4da.dir\\Debug\\cmTC_9b4da.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2af68.dir\\Debug\\\\" /Fd"cmTC_2af68.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9b4da.dir\\Debug\\\\" /Fd"cmTC_9b4da.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35228 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2af68.dir\\Debug\\\\" /Fd"cmTC_2af68.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\CheckFunctionExists.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_9b4da.dir\\Debug\\\\" /Fd"cmTC_9b4da.dir\\Debug\\vc143.pdb" /external:W1 /TC /errorReport:queue "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\Debug\\cmTC_2af68.exe" /INCREMENTAL /ILK:"cmTC_2af68.dir\\Debug\\cmTC_2af68.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-8fx4sg/Debug/cmTC_2af68.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-8fx4sg/Debug/cmTC_2af68.lib" /MACHINE:X64  /machine:x64 cmTC_2af68.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\cmTC_2af68.vcxproj]
-        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\cmTC_2af68.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\Debug\\cmTC_9b4da.exe" /INCREMENTAL /ILK:"cmTC_9b4da.dir\\Debug\\cmTC_9b4da.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-u1jt73/Debug/cmTC_9b4da.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/CMakeScratch/TryCompile-u1jt73/Debug/cmTC_9b4da.lib" /MACHINE:X64  /machine:x64 cmTC_9b4da.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\cmTC_9b4da.vcxproj]
+        Done Building Project "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\cmTC_9b4da.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\cmTC_2af68.vcxproj" (default target) (1) ->
+        "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\cmTC_9b4da.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-8fx4sg\\cmTC_2af68.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\build_desktop\\CMakeFiles\\CMakeScratch\\TryCompile-u1jt73\\cmTC_9b4da.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.35
+        Time Elapsed 00:00:00.50
         
       exitCode: 1
 ...

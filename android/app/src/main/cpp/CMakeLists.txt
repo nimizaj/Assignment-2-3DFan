@@ -9,8 +9,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Android-only guard
 if(NOT ANDROID)
     message(FATAL_ERROR
-        "This CMakeLists.txt is for Android builds only. "
-        "Use the platform-specific build system for other targets.")
+            "This CMakeLists.txt is for Android builds only. "
+            "Use the platform-specific build system for other targets.")
 endif()
 
 add_definitions(-DANDROID -DPLATFORM_ANDROID)
@@ -22,20 +22,21 @@ add_definitions(-DANDROID -DPLATFORM_ANDROID)
 set(SCENE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../../../../../Scene)
 
 add_library(touchevents SHARED
-    # Android JNI bridge
-    NativeTemplate.cpp
+        # Android JNI bridge
+        NativeTemplate.cpp
 
-    # Shared rendering code
-    ${SCENE_DIR}/Renderer.cpp
-    ${SCENE_DIR}/Triangle.cpp
+        # Shared rendering code
+        ${SCENE_DIR}/Renderer.cpp
+        ${SCENE_DIR}/Fan.cpp
+        ${SCENE_DIR}/Transform.cpp # <-- Added this line!
 )
 
 # ---------------------------------------------------------------------------
 # Include paths
 # ---------------------------------------------------------------------------
 target_include_directories(touchevents PRIVATE
-    ${CMAKE_CURRENT_SOURCE_DIR}   # NativeTemplate.cpp sits here
-    ${SCENE_DIR}                  # All shared Scene headers
+        ${CMAKE_CURRENT_SOURCE_DIR}   # NativeTemplate.cpp sits here
+        ${SCENE_DIR}                  # All shared Scene headers
 )
 
 # ---------------------------------------------------------------------------
@@ -47,8 +48,8 @@ find_library(glesv3-lib GLESv3)
 find_library(egl-lib    EGL)
 
 target_link_libraries(touchevents
-    ${log-lib}
-    ${android-lib}
-    ${glesv3-lib}
-    ${egl-lib}
+        ${log-lib}
+        ${android-lib}
+        ${glesv3-lib}
+        ${egl-lib}
 )

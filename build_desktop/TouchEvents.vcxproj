@@ -90,7 +90,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -119,10 +119,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PLATFORM_WINDOWS;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -142,7 +142,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>_deps\glfw-build\src\Debug\glfw3.lib;_deps\glew-build\lib\Debug\glewd.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>_deps\glfw-build\src\Debug\glfw3.lib;_deps\glew-build\lib\Debug\glewd.lib;_deps\glm-build\glm\Debug\glm.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -161,7 +161,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -191,10 +191,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -214,7 +214,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>_deps\glfw-build\src\Release\glfw3.lib;_deps\glew-build\lib\Release\glew.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>_deps\glfw-build\src\Release\glfw3.lib;_deps\glew-build\lib\Release\glew.lib;_deps\glm-build\glm\Release\glm.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -233,7 +233,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -263,10 +263,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -286,7 +286,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>_deps\glfw-build\src\MinSizeRel\glfw3.lib;_deps\glew-build\lib\MinSizeRel\glew.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>_deps\glfw-build\src\MinSizeRel\glfw3.lib;_deps\glew-build\lib\MinSizeRel\glew.lib;_deps\glm-build\glm\MinSizeRel\glm.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -305,7 +305,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <BufferSecurityCheck></BufferSecurityCheck>
@@ -334,10 +334,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PLATFORM_WINDOWS;GLEW_STATIC;WIN32_MEAN_AND_LEAN;VC_EXTRALEAN;_CRT_SECURE_NO_WARNINGS;GLEW_NO_GLU;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-src\include;C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -357,7 +357,7 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
     <Link>
-      <AdditionalDependencies>_deps\glfw-build\src\RelWithDebInfo\glfw3.lib;_deps\glew-build\lib\RelWithDebInfo\glew.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>_deps\glfw-build\src\RelWithDebInfo\glfw3.lib;_deps\glew-build\lib\RelWithDebInfo\glew.lib;_deps\glm-build\glm\RelWithDebInfo\glm.lib;opengl32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <DataExecutionPrevention></DataExecutionPrevention>
@@ -432,7 +432,9 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene\Fan.cpp" />
     <ClCompile Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene\Renderer.cpp" />
+    <ClCompile Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene\Transform.cpp" />
     <ClCompile Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene\Triangle.cpp" />
     <ClCompile Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\Scene\main.cpp" />
   </ItemGroup>
@@ -447,6 +449,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ProjectReference Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glfw-build\src\glfw.vcxproj">
       <Project>{99022EBA-692D-3816-A02E-A96729BC48F1}</Project>
       <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-build\glm\glm.vcxproj">
+      <Project>{163D5762-0016-3FE8-A1D4-04B0B39C2983}</Project>
+      <Name>glm</Name>
     </ProjectReference>
     <ProjectReference Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-build\libglew_static.vcxproj">
       <Project>{3C9B739F-A04A-3F35-91F0-0393CA080688}</Project>

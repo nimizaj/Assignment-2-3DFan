@@ -1,0 +1,18 @@
+@echo off
+"C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\cmake.exe" ^
+  "-HC:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\android\\app\\src\\main\\cpp" ^
+  "-DCMAKE_SYSTEM_NAME=Android" ^
+  "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON" ^
+  "-DCMAKE_SYSTEM_VERSION=34" ^
+  "-DANDROID_PLATFORM=android-34" ^
+  "-DANDROID_ABI=arm64-v8a" ^
+  "-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a" ^
+  "-DANDROID_NDK=C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358" ^
+  "-DCMAKE_ANDROID_NDK=C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358" ^
+  "-DCMAKE_TOOLCHAIN_FILE=C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358\\build\\cmake\\android.toolchain.cmake" ^
+  "-DCMAKE_MAKE_PROGRAM=C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\cmake\\3.22.1\\bin\\ninja.exe" ^
+  "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\android\\app\\build\\intermediates\\cxx\\Debug\\5b73ps5g\\obj\\arm64-v8a" ^
+  "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\android\\app\\build\\intermediates\\cxx\\Debug\\5b73ps5g\\obj\\arm64-v8a" ^
+  "-DCMAKE_BUILD_TYPE=Debug" ^
+  "-BC:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\android\\app\\.cxx\\Debug\\5b73ps5g\\arm64-v8a" ^
+  -GNinja

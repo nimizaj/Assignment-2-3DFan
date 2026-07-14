@@ -3,14 +3,11 @@
 
 #include "Fan.h"
 #include "Platform.h"
+#include "ShaderHelper.h"
 #include <glm/glm.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include <cmath>
 #include <algorithm>
-
-Fan::Fan() : movedDistance(0.0f), lastX(0.0f), lastY(0.0f) {
-    modelType = CubeType;
-}
 
 Fan::~Fan() {
     glDeleteVertexArrays(1, &vao);
@@ -19,7 +16,18 @@ Fan::~Fan() {
 }
 
 void Fan::InitModel() {
-    // 1. Define the 8-vertex cube positions (unit cube centered at origin)
+    // 1. Compile and link shaders using ShaderHelper
+#ifdef PLATFORM_ANDROID
+    GLuint program = ShaderHelper::buildProgramFromAssets(assetMgr, "shader/FanVertex.glsl", "shader/FanFragment.glsl");
+#else
+    GLuint program = ShaderHelper::buildProgramFromFile("FanVertex.glsl", "FanFragment.glsl");
+#endif
+    
+    // Save the program ID so we can force it active in Render()
+    programID = program; 
+    glUseProgram(programID);
+
+    // 2. Define the 8-vertex cube positions (unit cube centered at origin)
     const float positions[24] = {
         // Front face (Z = +0.5)
         -0.5f, -0.5f,  0.5f,
@@ -33,13 +41,13 @@ void Fan::InitModel() {
         -0.5f,  0.5f, -0.5f,
     };
 
-    // 2. Define the shade gradient per vertex (Front = 1.0, Back = 0.6)
+    // 3. Define the shade gradient per vertex (Front = 1.0, Back = 0.6)
     const float shades[8] = {
         1.0f, 1.0f, 1.0f, 1.0f, // Front corners
         0.6f, 0.6f, 0.6f, 0.6f  // Back corners
     };
 
-    // 3. Define the 36 indices to draw the 12 triangles of the cube
+    // 4. Define the 36 indices to draw the 12 triangles of the cube
     const unsigned short indices[36] = {
         0, 1, 2, 2, 3, 0, // Front
         1, 5, 6, 6, 2, 1, // Right
@@ -57,7 +65,7 @@ void Fan::InitModel() {
     // Bind VAO
     glBindVertexArray(vao);
 
-    // Setup VBO using a single buffer with sub-regions (Part 1 Requirement)
+    // Setup VBO using a single buffer with sub-regions
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
     glBufferData(GL_ARRAY_BUFFER, sizeof(positions) + sizeof(shades), nullptr, GL_STATIC_DRAW);
     glBufferSubData(GL_ARRAY_BUFFER, 0, sizeof(positions), positions);
@@ -79,18 +87,33 @@ void Fan::InitModel() {
     glBindVertexArray(0);
 
     // Retrieve uniform locations dynamically from the bound shader program
-    GLint program;
-    glGetIntegerv(GL_CURRENT_PROGRAM, &program);
-    mvpLocation = glGetUniformLocation(program, "MODELVIEWPROJECTIONMATRIX");
-    partColorLocation = glGetUniformLocation(program, "PARTCOLOR");
+    mvpLocation = glGetUniformLocation(programID, "MODELVIEWPROJECTIONMATRIX");
+    partColorLocation = glGetUniformLocation(programID, "PARTCOLOR");
+}
+
+void Fan::Resize(int w, int h) {
+    // 1. Build the camera lens
+    transform.TransformSetMatrixMode(PROJECTION_MATRIX);
+    transform.TransformLoadIdentity();
+    float aspect = (float)w / (float)h;
+    transform.TransformSetPerspective(glm::radians(60.0f), aspect, 0.01f, 1000.0f, 0.0f);
+    
+    // 2. Bulletproof the View Matrix: Force it to identity to clear out any memory garbage!
+    transform.TransformSetMatrixMode(VIEW_MATRIX);
+    transform.TransformLoadIdentity();
 }
 
 void Fan::Render() {
+    glUseProgram(programID);
+    
+    // Ensure 3D depth works so the back of the fan doesn't draw over the front
+    glEnable(GL_DEPTH_TEST); 
+
     // --- Part 2: Animate the blades ---
     if (fanOn) {
         spinAngle += (kBaseSpeed + dragBoost);
         if (spinAngle >= 360.0f) {
-            spinAngle -= 360.0f; // Wrap to prevent overflow
+            spinAngle -= 360.0f; 
         }
     }
 
@@ -99,18 +122,19 @@ void Fan::Render() {
     transform.TransformLoadIdentity();
 
     // World View (Pull back and tilt)
-    transform.TransformTranslate(0.0f, -0.8f, -8.0f);
-    transform.TransformRotate(glm::radians(20.0f), 0.0f, 1.0f, 0.0f);
+    transform.TransformTranslate(0.0f, -0.8f, -12.0f);
+    transform.TransformRotate(glm::radians(25.0f), 1.0f, 0.0f, 0.0f);
 
     glBindVertexArray(vao);
-    glm::mat4 mvp;
+    
+    glm::mat4* mvp;
 
     // 1. Base (Brown)
     transform.TransformPushMatrix();
     transform.TransformTranslate(0.0f, -2.6f, 0.0f);
     transform.TransformScale(1.6f, 0.25f, 0.8f);
-    transform.TransformGetModelViewProjectionMatrix(&mvp);
-    glUniformMatrix4fv(mvpLocation, 1, GL_FALSE, glm::value_ptr(mvp));
+    mvp = transform.TransformGetModelViewProjectionMatrix();
+    glUniformMatrix4fv(mvpLocation, 1, GL_FALSE, glm::value_ptr(*mvp));
     glUniform3f(partColorLocation, 0.45f, 0.28f, 0.12f);
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_SHORT, (void*)0);
     transform.TransformPopMatrix();
@@ -119,8 +143,8 @@ void Fan::Render() {
     transform.TransformPushMatrix();
     transform.TransformTranslate(0.0f, -1.21f, 0.0f);
     transform.TransformScale(0.15f, 2.53f, 0.15f);
-    transform.TransformGetModelViewProjectionMatrix(&mvp);
-    glUniformMatrix4fv(mvpLocation, 1, GL_FALSE, glm::value_ptr(mvp));
+    mvp = transform.TransformGetModelViewProjectionMatrix();
+    glUniformMatrix4fv(mvpLocation, 1, GL_FALSE, glm::value_ptr(*mvp));
     glUniform3f(partColorLocation, 0.55f, 0.55f, 0.58f);
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_SHORT, (void*)0);
     transform.TransformPopMatrix();
@@ -131,8 +155,8 @@ void Fan::Render() {
     
     transform.TransformPushMatrix(); 
     transform.TransformScale(0.3f, 0.3f, 0.3f);
-    transform.TransformGetModelViewProjectionMatrix(&mvp);
-    glUniformMatrix4fv(mvpLocation, 1, GL_FALSE, glm::value_ptr(mvp));
+    mvp = transform.TransformGetModelViewProjectionMatrix();
+    glUniformMatrix4fv(mvpLocation, 1, GL_FALSE, glm::value_ptr(*mvp));
     glUniform3f(partColorLocation, 0.20f, 0.20f, 0.22f);
     glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_SHORT, (void*)0);
     transform.TransformPopMatrix(); 
@@ -148,20 +172,20 @@ void Fan::Render() {
     for (int i = 0; i < 4; i++) {
         transform.TransformPushMatrix();
         transform.TransformTranslate(0.0f, 0.2f, 0.15f);
-        // Spin logic applies here so only the blades rotate
         transform.TransformRotate(glm::radians(spinAngle + (i * 90.0f)), 0.0f, 0.0f, 1.0f);
         transform.TransformTranslate(0.0f, 0.55f, 0.0f);
         transform.TransformScale(0.22f, 0.8f, 0.05f);
         
-        transform.TransformGetModelViewProjectionMatrix(&mvp);
-        glUniformMatrix4fv(mvpLocation, 1, GL_FALSE, glm::value_ptr(mvp));
-        glUniform3fv(partColorLocation, 1, glm::value_ptr(bladeColors[i]));
+        mvp = transform.TransformGetModelViewProjectionMatrix();
+        glUniformMatrix4fv(mvpLocation, 1, GL_FALSE, glm::value_ptr(*mvp));
+        // Breaking out the vectors into distinct floats to avoid any pointer mismatch
+        glUniform3f(partColorLocation, bladeColors[i].r, bladeColors[i].g, bladeColors[i].b);
         glDrawElements(GL_TRIANGLES, 36, GL_UNSIGNED_SHORT, (void*)0);
         
         transform.TransformPopMatrix();
     }
     
-    transform.TransformPopMatrix(); // Pop the hub's base position
+    transform.TransformPopMatrix();
 
     glBindVertexArray(0);
 }
@@ -181,7 +205,6 @@ void Fan::TouchEventMove(float x, float y) {
     float dist = std::sqrt(dx * dx + dy * dy);
     movedDistance += dist;
 
-    // Calculate time delta in milliseconds
     auto now = std::chrono::steady_clock::now();
     float dtms = std::chrono::duration<float, std::milli>(now - lastMoveTime).count();
 
@@ -196,12 +219,10 @@ void Fan::TouchEventMove(float x, float y) {
 }
 
 void Fan::TouchEventRelease(float x, float y) {
-    // If the finger barely moved, it counts as a tap
     if (movedDistance < kTapThreshold) {
         fanOn = !fanOn;
         LOGI("Fan %s", fanOn ? "ON" : "OFF");
     }
     
-    // Always reset the drag boost when letting go
     dragBoost = 0.0f;
 }

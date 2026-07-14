@@ -1,0 +1,22 @@
+[
+{
+  "directory": "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/.cxx/Debug/5b73ps5g/x86_64",
+  "command": "C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android34 --sysroot=C:/Users/afifj/AppData/Local/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -DPLATFORM_ANDROID -Dtouchevents_EXPORTS -IC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/src/main/cpp -IC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/src/main/cpp/../../../../../Scene -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\touchevents.dir\\NativeTemplate.cpp.o -c C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\android\\app\\src\\main\\cpp\\NativeTemplate.cpp",
+  "file": "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\android\\app\\src\\main\\cpp\\NativeTemplate.cpp"
+},
+{
+  "directory": "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/.cxx/Debug/5b73ps5g/x86_64",
+  "command": "C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android34 --sysroot=C:/Users/afifj/AppData/Local/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -DPLATFORM_ANDROID -Dtouchevents_EXPORTS -IC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/src/main/cpp -IC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/src/main/cpp/../../../../../Scene -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\touchevents.dir\\C_\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Renderer.cpp.o -c C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Renderer.cpp",
+  "file": "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Renderer.cpp"
+},
+{
+  "directory": "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/.cxx/Debug/5b73ps5g/x86_64",
+  "command": "C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android34 --sysroot=C:/Users/afifj/AppData/Local/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -DPLATFORM_ANDROID -Dtouchevents_EXPORTS -IC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/src/main/cpp -IC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/src/main/cpp/../../../../../Scene -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\touchevents.dir\\C_\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Fan.cpp.o -c C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Fan.cpp",
+  "file": "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Fan.cpp"
+},
+{
+  "directory": "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/.cxx/Debug/5b73ps5g/x86_64",
+  "command": "C:\\Users\\afifj\\AppData\\Local\\Android\\Sdk\\ndk\\28.2.13676358\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android34 --sysroot=C:/Users/afifj/AppData/Local/Android/Sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -DPLATFORM_ANDROID -Dtouchevents_EXPORTS -IC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/src/main/cpp -IC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/android/app/src/main/cpp/../../../../../Scene -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\touchevents.dir\\C_\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Transform.cpp.o -c C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Transform.cpp",
+  "file": "C:\\Users\\afifj\\Documents\\3D-Fan-Programming-Quiz-2\\Scene\\Transform.cpp"
+}
+]

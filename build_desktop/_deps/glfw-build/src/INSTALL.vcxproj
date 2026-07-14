@@ -196,7 +196,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glew-build\ALL_BUILD.vcxproj">
+    <ProjectReference Include="C:\Users\afifj\Documents\3D-Fan-Programming-Quiz-2\build_desktop\_deps\glm-build\ALL_BUILD.vcxproj">
       <Project>{38295F29-3DCD-3D56-9762-39A0BBDB6B5C}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>

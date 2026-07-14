@@ -42,6 +42,7 @@ target_include_directories(TouchEvents PRIVATE ${SCENE_DIR})
 target_link_libraries(TouchEvents
     PRIVATE glfw
     PRIVATE libglew_static
+    PRIVATE glm
 )
 
 # C++17 on MSVC
