@@ -5,6 +5,9 @@ REM ============================================================================
 
 IF NOT EXIST web MKDIR web
 
+REM --- Fetch GLM Dependency (Professor's Option 2) ---
+IF NOT EXIST external\glm git clone --depth 1 --branch 1.0.1 https://github.com/g-truc/glm.git external\glm
+
 REM --- GLFW backend (default) -----------------------------------------------
 emcc -std=c++17 ^
      Scene/main.cpp ^
@@ -12,6 +15,7 @@ emcc -std=c++17 ^
      Scene/Fan.cpp ^
      Scene/Transform.cpp ^
      -IScene ^
+     -Iexternal/glm ^
      -DUSE_GLFW ^
      -s USE_GLFW=3 ^
      -s USE_WEBGL2=1 ^
