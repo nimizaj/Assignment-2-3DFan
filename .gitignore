@@ -1,0 +1,12 @@
+# Build folders
+build_desktop/
+build/
+web/
+android/app/build/
+android/app/.cxx/
+android/.gradle/
+android/.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db

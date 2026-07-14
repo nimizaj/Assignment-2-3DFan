@@ -1,3 +1,0 @@
-C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/glew-populate.dir
-C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/ALL_BUILD.dir
-C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/ZERO_CHECK.dir
