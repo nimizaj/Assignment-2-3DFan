@@ -1,0 +1,10 @@
+^C:\USERS\AFIFJ\DOCUMENTS\3D-FAN-PROGRAMMING-QUIZ-2\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2 -BC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop --check-stamp-file C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

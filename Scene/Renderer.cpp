@@ -1,6 +1,6 @@
 #define LOG_TAG "Renderer"
 #include "Renderer.h"
-#include "Triangle.h"
+#include "Fan.h" // 1. Swapped Triangle for Fan
 
 // ---------------------------------------------------------------------------
 
@@ -23,11 +23,10 @@ bool Renderer::initializeRenderer()
 void Renderer::createModels()
 {
     clearModels();
-#ifdef PLATFORM_ANDROID
-    models.push_back(new Triangle(assetMgr));
-#else
-    models.push_back(new Triangle());
-#endif
+    
+    // 2. Register the Fan model (Works universally across Desktop, Web, and Android)
+    models.push_back(new Fan());
+    
     LOGI("Renderer: %zu model(s) created", models.size());
 }
 

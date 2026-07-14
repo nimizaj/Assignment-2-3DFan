@@ -1,0 +1,10 @@
+^C:\USERS\AFIFJ\DOCUMENTS\3D-FAN-PROGRAMMING-QUIZ-2\BUILD_DESKTOP\CMAKEFILES\A9FD2D7D9241092EBEB3E2887655DDBE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2 -BC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/TouchEvents.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

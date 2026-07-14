@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/glew-populate"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/97147ed55be7ee6ac84b890d4c51a521/glew-populate.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/f1bc8601a5801963ed2e846fa8a6c274/glew-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/e6e459faf36c6912f4a929d36d3cff2d/glew-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/e6e459faf36c6912f4a929d36d3cff2d/glew-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/e6e459faf36c6912f4a929d36d3cff2d/glew-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/e6e459faf36c6912f4a929d36d3cff2d/glew-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/e6e459faf36c6912f4a929d36d3cff2d/glew-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/e6e459faf36c6912f4a929d36d3cff2d/glew-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/e6e459faf36c6912f4a929d36d3cff2d/glew-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-subbuild/CMakeFiles/e6e459faf36c6912f4a929d36d3cff2d/glew-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glew-populate"
+		],
+		"name" : "glew-populate"
+	}
+}

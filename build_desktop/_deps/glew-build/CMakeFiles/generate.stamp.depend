@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.4/Modules/FindPackageMessage.cmake
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-src/CMakeLists.txt
+C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glew-src/GeneratePkgConfig.cmake

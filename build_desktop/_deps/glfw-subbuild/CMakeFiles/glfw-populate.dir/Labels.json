@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/glfw-populate"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/305af8bb5d514aa9d182a28b12d7e7ce/glfw-populate.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/2c892851337f38b1f725cdc9e041ec4d/glfw-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/5ff47940232eb4ebbcbf72c4013d6a65/glfw-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/5ff47940232eb4ebbcbf72c4013d6a65/glfw-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/5ff47940232eb4ebbcbf72c4013d6a65/glfw-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/5ff47940232eb4ebbcbf72c4013d6a65/glfw-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/5ff47940232eb4ebbcbf72c4013d6a65/glfw-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/5ff47940232eb4ebbcbf72c4013d6a65/glfw-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/5ff47940232eb4ebbcbf72c4013d6a65/glfw-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/CMakeFiles/5ff47940232eb4ebbcbf72c4013d6a65/glfw-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"glfw-populate"
+		],
+		"name" : "glfw-populate"
+	}
+}

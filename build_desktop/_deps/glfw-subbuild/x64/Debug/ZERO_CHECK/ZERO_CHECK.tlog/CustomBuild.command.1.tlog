@@ -1,0 +1,10 @@
+^C:\USERS\AFIFJ\DOCUMENTS\3D-FAN-PROGRAMMING-QUIZ-2\BUILD_DESKTOP\_DEPS\GLFW-SUBBUILD\CMAKEFILES\305AF8BB5D514AA9D182A28B12D7E7CE\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild -BC:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/afifj/Documents/3D-Fan-Programming-Quiz-2/build_desktop/_deps/glfw-subbuild/glfw-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
