@@ -1,40 +1,21 @@
 #!/usr/bin/env sh
-# =============================================================================
-# build_web.sh – Build Assignment-2-3DFan for WebGL using Emscripten
-#
-# Prerequisites:
-#   1. Install the Emscripten SDK:  https://emscripten.org/docs/getting_started/
-#   2. Activate it in your shell:   source /path/to/emsdk/emsdk_env.sh
-#   3. Run this script from the project root:  ./build_web.sh
-#
-# Output: web/index.html  (+ index.js, index.wasm, index.data)
-# Serve:  cd web && python3 -m http.server 8080
-#
-# Windowing backend (choose one):
-#   GLFW  – default, recommended  (-DUSE_GLFW  -s USE_GLFW=3)
-#   SDL2  – legacy fallback        (no -DUSE_GLFW, -s USE_SDL=2)
-# =============================================================================
-
 set -e
 
 mkdir -p web
 
-# --- GLFW backend (default) -------------------------------------------------
-#
-# Key flags:
-#   -DUSE_GLFW            Select the GLFW backend in main.cpp / Platform.h
-#   -s USE_GLFW=3         Pull in GLFW 3 from Emscripten ports (window + input)
-#   -s USE_WEBGL2=1       Enable WebGL 2.0 (= OpenGL ES 3.0)
-#   -s FULL_ES3=1         Full OpenGL ES 3.0 feature set (VAOs, layout qualifiers)
-#   -s WASM=1             Emit WebAssembly (not asm.js)
-#   --preload-file        Pack shader directory into the Emscripten virtual FS
-# ---------------------------------------------------------------------------
+# Fetch header-only GLM if not already cached
+GLM_DIR="/tmp/glm"
+if [ ! -d "$GLM_DIR/glm" ]; then
+    git clone --depth 1 https://github.com/g-truc/glm.git "$GLM_DIR"
+fi
+
 emcc -std=c++17 \
     Scene/main.cpp \
     Scene/Fan.cpp \
     Scene/Renderer.cpp \
     Scene/Transform.cpp \
     -IScene \
+    -I"$GLM_DIR" \
     -DUSE_GLFW \
     -s USE_GLFW=3 \
     -s USE_WEBGL2=1 \
@@ -43,21 +24,6 @@ emcc -std=c++17 \
     -s ALLOW_MEMORY_GROWTH=1 \
     --preload-file android/app/src/main/assets/shader@assets/shader \
     -o web/index.html
-
-# --- SDL2 backend (opt-in) --------------------------------------------------
-# To use SDL2 instead, comment out the GLFW block above and uncomment below:
-# emcc -std=c++17 \
-#     Scene/main.cpp \
-#     Scene/Fan.cpp \
-#     Scene/Renderer.cpp \
-#     Scene/Transform.cpp \
-#     -IScene \
-#     -s USE_SDL=2 \
-#     -s USE_WEBGL2=1 -s FULL_ES3=1 \
-#     -s WASM=1 \
-#     -s ALLOW_MEMORY_GROWTH=1 \
-#     --preload-file android/app/src/main/assets/shader@assets/shader \
-#     -o web/index.html
 
 echo ""
 echo "Build succeeded."
