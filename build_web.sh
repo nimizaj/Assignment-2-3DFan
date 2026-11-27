@@ -9,7 +9,7 @@ if [ ! -d "$GLM_DIR/glm" ]; then
     git clone --depth 1 https://github.com/g-truc/glm.git "$GLM_DIR"
 fi
 
-emcc -std=c++17 \
+em++ -std=c++17 \
     Scene/main.cpp \
     Scene/Fan.cpp \
     Scene/Renderer.cpp \
