@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 # =============================================================================
-# build_web.sh – Build TouchEvents-Modern for WebGL using Emscripten
+# build_web.sh – Build Assignment-2-3DFan for WebGL using Emscripten
 #
 # Prerequisites:
 #   1. Install the Emscripten SDK:  https://emscripten.org/docs/getting_started/
@@ -31,8 +31,9 @@ mkdir -p web
 # ---------------------------------------------------------------------------
 emcc -std=c++17 \
     Scene/main.cpp \
+    Scene/Fan.cpp \
     Scene/Renderer.cpp \
-    Scene/Triangle.cpp \
+    Scene/Transform.cpp \
     -IScene \
     -DUSE_GLFW \
     -s USE_GLFW=3 \
@@ -47,8 +48,9 @@ emcc -std=c++17 \
 # To use SDL2 instead, comment out the GLFW block above and uncomment below:
 # emcc -std=c++17 \
 #     Scene/main.cpp \
+#     Scene/Fan.cpp \
 #     Scene/Renderer.cpp \
-#     Scene/Triangle.cpp \
+#     Scene/Transform.cpp \
 #     -IScene \
 #     -s USE_SDL=2 \
 #     -s USE_WEBGL2=1 -s FULL_ES3=1 \
